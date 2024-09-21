@@ -1,0 +1,61 @@
+{
+  "name": "@xuchaoqian/abortable-promise",
+  "version": "1.11.2",
+  "description": "A TypeScript library for creating abortable promises with ease.",
+  "author": {
+    "name": "Chaoqian Xu",
+    "email": "chaoranxu@gmail.com",
+    "url": "https://github.com/xuchaoqian/"
+  },
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:xuchaoqian/abortable-promise.git"
+  },
+  "homepage": "https://github.com/xuchaoqian/abortable-promise",
+  "keywords": [
+    "promise",
+    "promises",
+    "abort",
+    "abortSignal",
+    "abortController",
+    "abortable",
+    "aborting",
+    "aborted",
+    "onabort",
+    "cancel",
+    "canceled",
+    "canceling",
+    "cancelable",
+    "cancellable",
+    "cancellation",
+    "async",
+    "await",
+    "signal"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test-cov": "jest --collect-coverage",
+    "build": "rimraf lib && tsc",
+    "format": "biome format --write",
+    "lint": "biome lint"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.25.2",
+    "@babel/preset-env": "~7.25.4",
+    "@babel/preset-typescript": "~7.24.7",
+    "@babel/runtime": "~7.25.6",
+    "@types/jest": "~29.5.12",
+    "@types/node": "~22.5.2",
+    "babel-jest": "~29.7.0",
+    "coveralls": "~3.1.1",
+    "jest": "~29.7.0",
+    "rimraf": "~6.0.1",
+    "typescript": "~5.5.4"
+  }
+}
